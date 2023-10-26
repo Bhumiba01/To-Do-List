@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    background-color: beige;
+}
+
+.form-container{
+    margin-top: 50px;
+    background-color: darkolivegreen;
+    padding: 30px 10px;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 540px;
+}
+.add-task-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+    padding: 3px;
+}
+#task-input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+#task-button{
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#task-button:hover{
+    background-color: slategrey;
+}
+.task-list {
+    list-style: none;
+    padding: 10px 10px;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.task-list-items {
+    background-color: saddlebrown;
+    margin-top: 8px;
+    color: whitesmoke;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+#mark-item{
+    width: 20px;
+    height: 20px;
+}
+
+#item-delete-button {
+    padding: 5px;
+    border-radius: 1rem;
+    border: none;
+    background-color: bisque;
+    cursor: pointer;
+    color: black;
+}
+
+#item-delete-button:hover {
+    background-color:burlywood;
+}
